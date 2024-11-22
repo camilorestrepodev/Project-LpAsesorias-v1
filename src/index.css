@@ -1,0 +1,23 @@
+@import url("https://staticdigital.labsura.com.co/assets/fonts/SuraSans.woff2");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Sura-Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://staticdigital.labsura.com.co/assets/fonts/SuraSans.ttf")
+      format(truetype),
+    url("https://staticdigital.labsura.com.co/assets/fonts/SuraSans.woff2")
+      format(woff2);
+}
+ 
+body {
+  font-family: "Sura-Sans" !important;
+}
+
+.custom-confirm-button {
+  @apply text-[#FFFFFF] bg-[#0033A0] hover:bg-[#0033A0] rounded-xl w-[200px] h-[46px] text-sm;
+}
